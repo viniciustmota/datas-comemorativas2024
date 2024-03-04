@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="src/css/estilos.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/estilos.css" />
 
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <section class="informacoes">
-        <h1 class="informacoes__titulo">Datas Comemorativas</h1>
-        <p class="informacoes__paragrafo">São datas escolhidas para relembrar eventos históricos, conquistas importantes
-            ou lutas que ainda estão sendo
-            travadas por um grupo.</p>
-        <div class="informacoes__botoes">
-            <a href="" class="informacoes__botao"><span class="material-symbols-outlined icone">
-                    female
-                </span>Dia da Mulher</a>
-            <a href="" class="informacoes__botao"> Aniversario de Garça</a>
-            <a href="" class="informacoes__botao">Dia Mundial do Meio Ambiente</a>
-            <a href="" class="informacoes__botao">Festa das Cerejeiras</a>
+  <body>
+    <section class="area-informacoes">
+      <div class="informacoes">
+        <div class="informacoes__texto">
+          <h1 class="informacoes__titulo">Datas Comemorativas</h1>
+          <p class="informacoes__paragrafo">
+            São datas escolhidas para relembrar eventos históricos, conquistas
+            importantes ou lutas que ainda estão sendo travadas por um grupo.
+          </p>
         </div>
+        <div class="informacoes__botoes">
+          <a href="./src/pages/mulher.html" class="informacoes__botao"
+            ><span class="material-symbols-outlined icone"> female </span>Dia da
+            Mulher</a
+          >
+          <a href="./src/pages/garca.html" class="informacoes__botao"
+            ><span class="material-icons icone"> cake </span> Aniversario de
+            Garça</a
+          >
+          <a href="./src/pages/ambiente.html" class="informacoes__botao"
+            ><span class="material-icons icone"> forest </span>Dia Mundial do
+            Meio Ambiente</a
+          >
+          <a href="./src/pages/cerejeiras.html" class="informacoes__botao"
+            ><span class="material-icons icone">celebration</span>Festa das
+            Cerejeiras</a
+          >
+        </div>
+      </div>
     </section>
-    <footer>
-        <nav>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </nav>
+    <footer class="rodape">
+      <nav class="rodape__menu">
+        <a href="./src/pages/mulher.html" class="rodape__menu-item"
+          ><span class="material-symbols-outlined icone"> female </span></a
+        >
+        <a href="./src/pages/garca.html" class="rodape__menu-item"
+          ><span class="material-icons icone"> cake </span></a
+        >
+        <a href="./index.html" class="rodape__menu-item"
+          ><span class="material-icons icone"> home </span></a
+        >
+        <a href="./src/pages/ambiente.html" class="rodape__menu-item"
+          ><span class="material-icons icone"> forest </span></a
+        >
+        <a href="./src/pages/cerejeiras.html" class="rodape__menu-item"
+          ><span class="material-icons icone">celebration</span></a
+        >
+      </nav>
     </footer>
-</body>
-
+  </body>
 </html>
