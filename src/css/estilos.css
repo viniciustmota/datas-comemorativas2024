@@ -78,6 +78,10 @@ body {
   font-size: 36px;
 }
 
+.informacoes__paragrafo{
+margin-bottom: 98px;
+}
+
 .informacoes__botoes {
   display: flex;
   flex-direction: column;
